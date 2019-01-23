@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_22_224903) do
+ActiveRecord::Schema.define(version: 2019_01_23_141021) do
 
   create_table "quotes", force: :cascade do |t|
     t.string "content"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2019_01_22_224903) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
   end
 
 end
